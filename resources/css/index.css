@@ -10,30 +10,36 @@ body {
 footer {
   background-color: dimgray;
   text-align: left;
-  color: white;
 }
 
 #copyright {
-  font-size: 11px; 
+  font-size: 11px;
 }
 
 a {
   font-size: 18px;
-  color: white;
 }
 
 h1 {
-
+  font-size: 70px;
 }
 
 h2 {
+  font-size: 32px;
+}
 
+h3 {
+  font-size: 23px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1, a, footer, #white {
+  color: white;
 }
 
 p {
-
-}
-
-h1, h2 {
-
+  font-size: 14px;
 }
